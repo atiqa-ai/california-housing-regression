@@ -77,7 +77,7 @@ switching to a more complex estimator.
 Python 3.9+ and Jupyter.
 
 ```bash
-git clone https://github.com/<your-username>/california-housing-regression.git
+git clone https://github.com/atiqa-ai/california-housing-regression.git
 cd california-housing-regression
 
 python -m venv .venv
@@ -117,7 +117,3 @@ The notebook is a baseline, and there is clear headroom. Natural next steps:
 - Scaling is a correctness issue, not a formality, whenever features differ by orders of magnitude.
 - An R² of 0.575 is not a failure — it is an honest measurement of what a linear model can extract here.
 - Exploratory analysis of correlations often suggests the next feature to engineer faster than trying models at random.
-
-## License
-
-MIT. The dataset is provided by scikit-learn under its BSD licence.
